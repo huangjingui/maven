@@ -1,7 +1,6 @@
 #!groovy
 pipeline{
    agent  any
-   }
    options {
       timestamps()               // 日志会有时间.
       skipDefaultCheckout()            // 删除隐式checkout scm语句
