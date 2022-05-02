@@ -35,7 +35,7 @@ pipeline{
                script{
                   println('代码扫描')
                   mvnhome = tool "M2"
-                  sh "${mvnhome/bin/mvn -v}"
+                  sh "${mvnhome}/bin/mvn -v"
                }
             }
          }
